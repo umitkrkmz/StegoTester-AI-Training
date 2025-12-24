@@ -1,0 +1,15 @@
+# .gitignore
+__pycache__/
+*.py[cod]
+venv/
+.venv/
+
+# Loading datasets (Those who wish can generate them using a script)
+dataset/
+assets/clean_images/*
+assets/clean_audio/*
+
+
+# IDE files
+.vscode/
+.idea/
